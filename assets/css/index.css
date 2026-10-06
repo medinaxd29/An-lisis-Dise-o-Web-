@@ -1,0 +1,19 @@
+/* index.css — base general: reset, tokens, tipografía */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap");
+:root{
+  --paper:#e9edf0; --card:#f7f9fa; --ink:#14202b; --muted:#4a5a68;
+  --signal:#1f4fd8; --mark:#f2d43d; --line:#b9c4cd;
+  --display:"Bricolage Grotesque",system-ui,sans-serif;
+  --text:"Source Serif 4",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#10171e; --card:#18222b; --ink:#e8eef2; --muted:#9fb0bd; --signal:#8fb0ff; --line:#2f3d49}
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:1.0625rem/1.65 var(--text)}
+h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0 0 .6em}
+img,iframe{max-width:100%}
+a{color:var(--signal)}
+:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

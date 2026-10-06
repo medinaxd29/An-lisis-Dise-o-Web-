@@ -1,0 +1,35 @@
+/* sow.css — layout específico del informe SOW */
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:var(--card);padding:.5rem;z-index:2000}
+.cover{min-height:70vh;display:grid;place-content:center;padding:2rem;background:var(--ink);color:var(--paper)}
+.cover h1{font-size:clamp(2.5rem,9vw,7rem);max-width:12ch;opacity:0;animation:rise 1.4s .2s forwards cubic-bezier(.2,.7,.2,1)}
+.cover p{max-width:46ch;color:var(--line);margin:0}
+@keyframes rise{from{transform:translateY(1.5rem)}to{opacity:1;transform:none}}
+nav{position:sticky;top:0;z-index:1000;background:var(--card);border-bottom:1px solid var(--line)}
+nav ul{list-style:none;margin:0;padding:0 1rem;display:flex;gap:.25rem;overflow-x:auto}
+nav a{display:block;padding:.9rem .8rem;font:500 .95rem var(--display);color:var(--ink);text-decoration:none;border-bottom:3px solid transparent}
+nav a:hover,nav a:focus-visible{border-bottom-color:var(--signal)}
+main{max-width:72rem;margin:0 auto;padding:0 1.25rem}
+.intro{padding:3rem 0 1rem;max-width:60ch}
+.site{padding:4rem 0 2rem;border-top:1px solid var(--line)}
+.site h2{font-size:clamp(1.8rem,4vw,2.8rem)}
+.meta{color:var(--muted);margin-top:-.4em}
+.frame{margin:1.5rem 0}
+.frame iframe{width:100%;height:420px;border:1px solid var(--line);background:#fff}
+.frame figcaption{font-size:.9rem;color:var(--muted)}
+.analysis-text{columns:1;column-gap:2.5rem}
+@media(min-width:800px){.analysis-text{columns:2}}
+.analysis-text dt{font:700 1rem var(--display);break-after:avoid;margin-top:1rem}
+.analysis-text dd{margin:0 0 .5rem;break-inside:avoid}
+.scores{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:.75rem;margin:2rem 0;padding:0;list-style:none}
+.scores li{background:var(--card);border:1px solid var(--line);padding:.8rem 1rem}
+.scores b{display:block;font:700 1.8rem var(--display);background:linear-gradient(transparent 60%,var(--mark) 60%);width:fit-content;color:#14202b}
+.scores span{font-size:.9rem;color:var(--muted)}
+.critical{background:var(--card);border-left:6px solid var(--signal);padding:1rem 1.25rem;margin:1.5rem 0}
+.critical h3{font-size:1.15rem}
+.critical ul{margin:0;padding-left:1.2rem}
+.screenshots{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin:0}
+.screenshots figure{margin:0}
+.screenshots img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;background:var(--line);border:1px solid var(--line);display:block}
+.screenshots figcaption{font-size:.85rem;color:var(--muted)}
+.conclusion{font-size:1.15rem;margin-top:2rem;padding-top:1rem;border-top:3px solid var(--ink)}
+footer{margin-top:4rem;padding:2rem 1.25rem;background:var(--ink);color:var(--paper);text-align:center}

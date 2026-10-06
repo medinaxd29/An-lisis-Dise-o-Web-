@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font-End Webs – Análisis de Sitios Premiados</title>
+    <meta name="description" content="Informe de análisis crítico de cuatro sitios web premiados siguiendo la metodología Atelier." />
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/sow.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Saltar al contenido</a>
+    <header>
+      <section class="cover">
+        <h1>Análisis de Front-End Webs</h1>
+        <p>Análisis crítico de cuatro sitios premiados · Alejandro Medina Chacón · Web Atelier (UDIT)</p>
+      </section>
+      <nav aria-label="Sitios analizados">
+        <ul>
+          <li><a href="#site-bruno">Bruno Simon</a></li>
+          <li><a href="#site-cowboy">Cowboy</a></li>
+          <li><a href="#site-synthetic">Synthetic Theatre</a></li>
+          <li><a href="#site-language">Language Explorer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <div class="intro">
+        <h2>Cómo leer este informe</h2>
+        <p>Cuatro sitios premiados (uno en Awwwards y tres en los Webby) analizados con los nueve pasos de la metodología Atelier, de lo experimental a lo comercial. Cada análisis termina con una reflexión crítica y una conclusión.</p>
+      </div>
+    <section id="site-bruno" aria-labelledby="h-bruno">
+      <h2 id="h-bruno">Bruno Simon — Portfolio</h2>
+      <p class="meta">Autor: Bruno Simon · Premio: Awwwards (comprueba categoría y fecha en su ficha) · Criterios: Awwwards (Diseño 40 %, Usabilidad 30 %, Creatividad 20 %, Contenido 10 %)</p>
+      <figure class="frame">
+        <iframe src="https://bruno-simon.com/" title="Bruno Simon — Portfolio" loading="lazy"></iframe>
+        <figcaption>Awwwards · portfolio 3D de un creative developer. Si el iframe no carga, <a href="https://bruno-simon.com/" target="_blank" rel="noopener">abre el sitio en una pestaña nueva</a>.</figcaption>
+      </figure>
+      <div class="analysis-text">
+        <dl>
+          <dt>Selección</dt>
+          <dd>Lo elegí porque convierte un portfolio, normalmente una lista de proyectos, en un videojuego: es el ejemplo más claro de «3D auténtico» de la guía (WebGL/Three.js con propósito).</dd>
+          <dt>Impresión inicial</dt>
+          <dd>Sorpresa y juego. Antes de leer nada ya estás conduciendo, así que el sitio te enseña por uso y no por texto.</dd>
+          <dt>Estructura</dt>
+          <dd>No hay menú clásico: la información (proyectos, contacto) vive en zonas del escenario 3D. Es una arquitectura espacial, no jerárquica, y cada visita es un recorrido distinto.</dd>
+          <dt>Visual</dt>
+          <dd>Estética low-poly con color plano y luz suave. Una paleta contenida mantiene la coherencia aunque la escena sea densa.</dd>
+          <dt>Interacción</dt>
+          <dd>Conducción con teclado (o controles táctiles), física de objetos y pequeños detalles escondidos que premian explorar. La interacción es el contenido.</dd>
+          <dt>Usabilidad</dt>
+          <dd>Pide aprender controles nuevos y, para quien solo quiere ver proyectos, el recorrido es más lento que un menú. Es el precio de la creatividad.</dd>
+          <dt>Técnico</dt>
+          <dd>Escena WebGL pesada: conviene medir el peso total, el LCP y los fps en un móvil de gama media. Esta es la parte donde estos sitios suelen perder frente a una web convencional.</dd>
+          <dt>Criterios de excelencia</dt>
+          <dd>Creatividad: sobresaliente. Diseño: muy bueno por coherencia. Usabilidad: discutible por la curva de aprendizaje. Contenido: correcto, supeditado a la experiencia.</dd>
+        </dl>
+      </div>
+      <aside class="critical">
+        <h3>Reflexión crítica (Atelier)</h3>
+        <ul>
+          <li>Premia a quien tiene equipo potente y conexión rápida; excluye a usuarios con hardware limitado.</li>
+          <li>El efecto «wow» sí se justifica: el sitio demuestra la habilidad que ofrece su autor.</li>
+          <li>Forma por encima de función, pero coherente con su objetivo: venderse como desarrollador creativo.</li>
+          <li>Medición técnica: <mark>Lighthouse Performance 68/100 · Accesibilidad 94/100</mark></li>
+        </ul>
+      </aside>
+      <div class="screenshots">
+        <figure><img src="../assets/sow/bruno1.png" alt="Escena 3D del portfolio con el coche en una zona de proyectos" loading="lazy" width="800" height="500" /><figcaption>Landing Page</figcaption></figure>
+        <figure><img src="../assets/sow/bruno2.png" alt="Mapa del Juego" loading="lazy" width="800" height="500" /><figcaption>Seccion</figcaption></figure>
+        <figure><img src="../assets/sow/bruno3.png" alt="Diseño Responsive" loading="lazy" width="800" height="500" /><figcaption>Vista IPHONE</figcaption></figure>
+      </div>
+      <p class="conclusion"><strong>Conclusión:</strong> Una web que demuestra el producto en vez de describirlo. Aprendizaje: la innovación funciona cuando es la prueba del servicio. Mejora posible: una vía rápida (lista de proyectos) para quien busca información directa y un modo de bajo consumo.</p>
+    </section>
+    <section id="site-cowboy" aria-labelledby="h-cowboy">
+      <h2 id="h-cowboy">Cowboy</h2>
+      <p class="meta">Equipo: Cowboy Internal Design and Development Team (Marcus Brown, Loic Verstaevel) · Premio: Webby 2024, Best Visual Design – Function y Best Mobile User Interface · Criterios: Webby</p>
+      <figure class="frame">
+        <iframe src="https://winners.webbyawards.com/2024/websites-and-mobile-sites/features-design/best-visual-design-function/280677/cowboy" title="Cowboy" loading="lazy"></iframe>
+        <figcaption>Webby 2024 · e-commerce de bicicletas eléctricas. Si el iframe no carga, <a href="https://winners.webbyawards.com/2024/websites-and-mobile-sites/features-design/best-visual-design-function/280677/cowboy" target="_blank" rel="noopener">abre el sitio en una pestaña nueva</a>.</figcaption>
+      </figure>
+      <div class="analysis-text">
+        <dl>
+          <dt>Selección</dt>
+          <dd>Contrasta con el caso anterior: es un sitio comercial. La categoría premiada (Visual Design – Function) busca sitios donde el diseño visual es parte crítica de una experiencia funcional.</dd>
+          <dt>Impresión inicial</dt>
+          <dd>Producto primero, limpio y de marca cuidada; transmite confianza antes que espectáculo.</dd>
+          <dt>Estructura</dt>
+          <dd>Arquitectura de tienda: producto, configuración y compra con un camino claro. Es un sitio para convertir, no para explorar.</dd>
+          <dt>Visual</dt>
+          <dd>Identidad coherente con el producto: minimalismo, fotografía de producto y jerarquía tipográfica clara.</dd>
+          <dt>Interacción</dt>
+          <dd>Microinteracciones al servicio de elegir y comprar. Las animaciones son funcionales, no decorativas.</dd>
+          <dt>Usabilidad</dt>
+          <dd>Convenciones de e-commerce respetadas; el premio de interfaz móvil sugiere que el uso en pantalla pequeña estuvo cuidado.</dd>
+          <dt>Técnico</dt>
+          <dd>Al ser un equipo interno, se espera código mantenible. Falta medir con Lighthouse el rendimiento de las imágenes de producto.</dd>
+          <dt>Criterios de excelencia</dt>
+          <dd>Diseño: muy bueno. Usabilidad: sobresaliente (es el foco). Creatividad: moderada y deliberada. Contenido: claro y orientado a la venta.</dd>
+        </dl>
+      </div>
+      <aside class="critical">
+        <h3>Reflexión crítica (Atelier)</h3>
+        <ul>
+          <li>Su estilo apunta a un público urbano con poder adquisitivo; es una decisión de marca que también segmenta.</li>
+          <li>Cada elemento visual sirve a la compra: casi no hay decoración gratuita.</li>
+          <li>Equilibra forma y función mejor que los sitios experimentales.</li>
+          <li>Medición técnica: <mark>Lighthouse Performance 58/100 · Accesibilidad 89/100</mark></li>
+        </ul>
+      </aside>
+      <div class="screenshots">
+        <figure><img src="../assets/sow/cowboy1.png" alt="Portfolio de Cowboy" loading="lazy" width="800" height="500" /><figcaption>Landing Page</figcaption></figure>
+        <figure><img src="../assets/sow/cowboy2.png" alt="Seccion" loading="lazy" width="800" height="500" /><figcaption>Seccion</figcaption></figure>
+        <figure><img src="../assets/sow/cowboy3.png" alt="Diseño Responsive" loading="lazy" width="800" height="500" /><figcaption>Vista IPHONE</figcaption></figure>
+      </div>
+      <p class="conclusion"><strong>Conclusión:</strong> Prueba que un premio no exige ser experimental: la excelencia está en eliminar fricción. Mejora posible: más información de accesibilidad (contraste, alternativas de texto) visible en la propia experiencia.</p>
+    </section>
+    <section id="site-synthetic" aria-labelledby="h-synthetic">
+      <h2 id="h-synthetic">Synthetic Theatre</h2>
+      <p class="meta">Autor: Daniele Buffa (dirección creativa) · Desarrollo: Andreas Antonsson (Unna Studio) · Premio: Webby 2025, Animación/Motion Graphics, Visual Design – Aesthetic y Mobile Visual Design – Aesthetic</p>
+      <figure class="frame">
+        <iframe src="https://winners.webbyawards.com/2025/websites-and-mobile-sites/features-design/best-use-of-animation-or-motion-graphics/328658/synthetic-theatre" title="Synthetic Theatre" loading="lazy"></iframe>
+        <figcaption>Webby 2025 · experiencia audiovisual. Si el iframe no carga, <a href="https://winners.webbyawards.com/2025/websites-and-mobile-sites/features-design/best-use-of-animation-or-motion-graphics/328658/synthetic-theatre" target="_blank" rel="noopener">abre el sitio en una pestaña nueva</a>.</figcaption>
+      </figure>
+      <div class="analysis-text">
+        <dl>
+          <dt>Selección</dt>
+          <dd>Es un sitio premiado en tres categorías centradas en lo visual y el movimiento, ideal para analizar la animación como lenguaje.</dd>
+          <dt>Impresión inicial</dt>
+          <dd>Su ficha enmarca la pieza con la frase «Fuel Inspiration. Nothing Else Matters.»; invita a una experiencia emocional más que informativa.</dd>
+          <dt>Estructura</dt>
+          <dd>Pieza de experiencia, más próxima a una obra que a un sitio de información; el recorrido es guiado.</dd>
+          <dt>Visual</dt>
+          <dd>La categoría «Aesthetic» premia lo bello, emocional y sensorial; la dirección artística es el eje del proyecto.</dd>
+          <dt>Interacción</dt>
+          <dd>El movimiento es protagonista (premio de animación) y tiene versión móvil premiada específicamente por su estética.</dd>
+          <dt>Usabilidad</dt>
+          <dd>En piezas guiadas el riesgo es la pérdida de control del usuario (heurística de Nielsen: control y libertad). Conviene comprobar si se puede pausar o saltar.</dd>
+          <dt>Técnico</dt>
+          <dd>Animación continua implica coste de CPU/GPU. Medir fps y respeto de prefers-reduced-motion.</dd>
+          <dt>Criterios de excelencia</dt>
+          <dd>Diseño y creatividad: puntos fuertes por categoría premiada. Contenido: más atmosférico que informativo. Usabilidad: a verificar.</dd>
+        </dl>
+      </div>
+      <aside class="critical">
+        <h3>Reflexión crítica (Atelier)</h3>
+        <ul>
+          <li>La animación continua puede excluir a personas sensibles al movimiento si no hay alternativa.</li>
+          <li>¿Hay mensaje o es pura estética? Esto debe valorarse tras recorrerla entera.</li>
+          <li>Forma muy por encima de función, coherente con su carácter de obra.</li>
+          <li>Medición técnica: <mark>Lighthouse Performance 68/100 · Accesibilidad 93/100</mark></li>
+        </ul>
+      </aside>
+      <div class="screenshots">
+        <figure><img src="../assets/sow/synthetic1.png" alt="Portfolio de Synthetic Theatre" loading="lazy" width="800" height="500" /><figcaption>Landing Page</figcaption></figure>
+        <figure><img src="../assets/sow/synthetic2.png" alt="Seccion" loading="lazy" width="800" height="500" /><figcaption>Seccion</figcaption></figure>
+        <figure><img src="../assets/sow/synthetic3.png" alt="Diseño Responsive" loading="lazy" width="800" height="500" /><figcaption>Vista IPHONE</figcaption></figure>
+      </div>
+      <p class="conclusion"><strong>Conclusión:</strong> Muestra la animación como lenguaje narrativo. Aprendizaje: premiar la estética exige igualmente accesibilidad. Mejora posible: modo de movimiento reducido y control de reproducción.</p>
+    </section>
+    <section id="site-language" aria-labelledby="h-language">
+      <h2 id="h-language">Language Explorer</h2>
+      <p class="meta">Equipo: Hook, Google y Blinkk · Premio: Webby 2026, Best Visual Design – Aesthetic y Responsible AI · Criterios: Webby</p>
+      <figure class="frame">
+        <iframe src="https://winners.webbyawards.com/2026/websites-and-mobile-sites/responsible-technology/responsible-ai/364609/language-explorer" title="Language Explorer" loading="lazy"></iframe>
+        <figcaption>Webby 2026 · experimento de Google. Si el iframe no carga, <a href="https://winners.webbyawards.com/2026/websites-and-mobile-sites/responsible-technology/responsible-ai/364609/language-explorer" target="_blank" rel="noopener">abre el sitio en una pestaña nueva</a>.</figcaption>
+      </figure>
+      <div class="analysis-text">
+        <dl>
+          <dt>Selección</dt>
+          <dd>Es un proyecto reciente que une dos criterios: estética visual e IA responsable, un tema de debate actual.</dd>
+          <dt>Impresión inicial</dt>
+          <dd>El nombre promete exploración; el interés está en cómo se presenta la tecnología al público no experto.</dd>
+          <dt>Estructura</dt>
+          <dd>Es un experimento interactivo en torno al lenguaje, con un recorrido de exploración más que de lectura lineal.</dd>
+          <dt>Visual</dt>
+          <dd>La categoría «Aesthetic» premia lo bello y emocional; debe observarse cómo traduce un tema abstracto (idiomas) en imagen.</dd>
+          <dt>Interacción</dt>
+          <dd>La exploración es el mecanismo central de la experiencia.</dd>
+          <dt>Usabilidad</dt>
+          <dd>Un proyecto sobre lenguaje debería ser especialmente claro con su propio texto, traducciones y accesibilidad.</dd>
+          <dt>Técnico</dt>
+          <dd>Es un producto de Google: cabe esperar buen rendimiento; se verifica con Lighthouse.</dd>
+          <dt>Criterios de excelencia</dt>
+          <dd>Diseño: destacado por premio. Contenido: tema relevante. Creatividad: alta al traducir lenguaje en experiencia.</dd>
+        </dl>
+      </div>
+      <aside class="critical">
+        <h3>Reflexión crítica (Atelier)</h3>
+        <ul>
+          <li>Premiado en IA responsable: ¿explica el sitio qué hace la IA y con qué datos?</li>
+          <li>¿Qué lenguas e idiomas incluye y cuáles quedan fuera? El sesgo lingüístico es la pregunta crítica.</li>
+          <li>Una marca como Google proyecta confianza; hay que preguntarse a quién beneficia.</li>
+          <li>Medición técnica: <mark>Lighthouse Performance 76/100 · Accesibilidad 87/100</mark></li>
+        </ul>
+      </aside>
+      <div class="screenshots">
+        <figure><img src="../assets/sow/language1.png" alt="Portfolio de Language Explorer" loading="lazy" width="800" height="500" /><figcaption>Landing Page</figcaption></figure>
+        <figure><img src="../assets/sow/language2.png" alt="Seccion" loading="lazy" width="800" height="500" /><figcaption>Seccion</figcaption></figure>
+        <figure><img src="../assets/sow/language3.png" alt="Diseño Responsive" loading="lazy" width="800" height="500" /><figcaption>Vista IPHONE</figcaption></figure>
+      </div>
+      <p class="conclusion"><strong>Conclusión:</strong> Un caso donde la estética y la ética tecnológica se evalúan juntas. Aprendizaje: la IA también se diseña y se comunica. Mejora posible: más transparencia sobre limitaciones.</p>
+    </section>
+    </main>
+    <footer>
+      <p>© 2025 Web Atelier (UDIT) – Informe de análisis.</p>
+    </footer>
+  </body>
+</html>
